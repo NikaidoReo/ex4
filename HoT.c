@@ -9,31 +9,33 @@ int main(){
     scanf("%s",name);
     printf("Hello!%s\n",name);
     srand(time(NULL));
-    printf("Tossing a coin...¥n");
+    printf("Tossing a coin...促n");
     printf("round1:");
     if(rand()%2==0){
         i++;
-        printf("Heads¥n");
+        printf("Heads促n");
     } else {
         j++;
-        printf("Tails¥n");
+        printf("Tails促n");
     }
     printf("round2:");
     if(rand()%2==0){
         i++;
-        printf("Heads¥n");
+        printf("Heads促n");
     } else {
         j++;
-        printf("Tails¥n");
+        printf("Tails促n");
     }
     printf("round3:");
     if(rand()%2==0){
         i++;
-        printf("Heads¥n");
+        printf("Heads促n");
     } else {
         j++;
-        printf("Tails¥n");
+        printf("Tails促n");
     }
-    printf("Head: %d, Tails: %d¥n",i,j);
+    printf("Head: %d, Tails: %d促n",i,j);
+    if(i>j)printf("You win!\n");
+    else printf("You lose.\n");
     return 0;
 }
